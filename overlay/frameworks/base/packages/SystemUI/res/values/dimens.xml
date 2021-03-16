@@ -16,17 +16,23 @@
 */
 -->
 <resources>
+    <!--  Allow CornerHandleView and PathSpecCornerPathRenderer to decouple from corner-radius -->
+    <dimen name="config_rounded_mask_size">97px</dimen>
+
+    <!-- the padding on the start of the statusbar -->
+    <dimen name="status_bar_padding_start">8px</dimen>
+
+    <!-- Starting padding for a left-aligned status bar clock -->
+    <dimen name="status_bar_left_clock_starting_padding">0dp</dimen>
+
     <!-- the padding on the end of the statusbar -->
-    <dimen name="status_bar_padding_end">65px</dimen>
+    <dimen name="status_bar_padding_end">8px</dimen>
+
+    <!-- the padding on the top of the statusbar (usually 0) -->
+    <dimen name="status_bar_padding_top">28px</dimen>
 
     <!-- Height of the status bar header bar when on Keyguard -->
     <dimen name="status_bar_header_height_keyguard">@*android:dimen/status_bar_height</dimen>
-
-    <!-- Margin on the left side of the carrier text on Keyguard -->
-    <dimen name="keyguard_carrier_text_margin">16px</dimen>
-
-    <!-- Margin on the right side of the system icon group on Keyguard. -->
-    <dimen name="system_icons_keyguard_padding_end">@dimen/status_bar_padding_end</dimen>
     
     <!-- Alert Slider UI -->
     <dimen name="tri_state_down_dialog_position_l">350px</dimen>
@@ -38,4 +44,12 @@
     <dimen name="tri_state_down_dialog_position">481px</dimen>
     <dimen name="tri_state_middle_dialog_position">350px</dimen>
     <dimen name="tri_state_up_dialog_position">219px</dimen>
+
+    <dimen name="keyguard_carrier_text_margin">0dp</dimen>
+
+    <!-- Margin on the right side of the system icon group on Keyguard. -->
+    <dimen name="system_icons_keyguard_padding_end">10px</dimen>
+
+    <!-- The absolute side margins of quick settings -->
+    <dimen name="rounded_corner_content_padding">30px</dimen>
 </resources>

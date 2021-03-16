@@ -23,6 +23,10 @@
     <!-- Do not translate. Default access point SSID used for tethering -->
     <string name="wifi_tether_configure_ssid_default" translatable="false">OnePlus 8T</string>
 
+    <!-- Height of the status bar -->
+    <dimen name="status_bar_height_portrait">112px</dimen>
+    <dimen name="status_bar_height_landscape">82px</dimen>
+
     <!-- Default radius of the software rounded corners. -->
     <dimen name="rounded_corner_radius">150px</dimen>
 
